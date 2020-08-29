@@ -1,0 +1,20 @@
+package list;
+
+import java.util.Vector;
+
+public class Vector_demo {
+	public static void main(String[] args) {
+		Vector v = new Vector();
+		v.add("hello");
+		v.add("world");
+		v.add("java");
+
+		// 遍历时不能用增强for
+		//获取值时要用v.get(i)
+		for (int i = 0; i < v.size(); i++) {
+			String s = (String) v.get(i);
+			System.out.println(s);
+		}
+		
+	}
+}
