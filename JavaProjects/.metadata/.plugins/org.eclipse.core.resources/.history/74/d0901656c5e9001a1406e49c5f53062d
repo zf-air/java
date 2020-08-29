@@ -1,0 +1,17 @@
+package collection;
+
+import java.util.Vector;
+
+public class vector_demo {
+	public static void main(String[] args) {
+		Vector v = new Vector();
+		v.add("hello");
+		v.add("world");
+		v.add("java");
+
+		for(int i=0;i<v.size();i++) {
+			String s = (String) v.get(i);
+			System.out.println(s);
+		}
+	}
+}

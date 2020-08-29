@@ -1,0 +1,20 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"/>
+content_assist_number_of_computers=12
+content_assist_proposals_background=207,227,247
+content_assist_proposals_foreground=5,15,26
+eclipse.preferences.version=1
+markOccurrences=false
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=19
+semanticHighlighting.class.color=103,140,177
+semanticHighlighting.enum.color=224,226,228
+semanticHighlighting.interface.color=103,140,177
+semanticHighlighting.localVariableDeclaration.color=38,139,210
+semanticHighlighting.method.color=103,140,177
+semanticHighlighting.parameterVariable.color=224,226,228
+semanticHighlighting.typeArgument.color=181,137,0
+semanticHighlighting.typeParameter.color=181,137,0
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

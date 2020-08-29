@@ -1,0 +1,13 @@
+AbstractTextEditor.Color.Background=246,250,253
+AbstractTextEditor.Color.Background.SystemDefault=false
+AbstractTextEditor.Color.FindScope=224,226,228
+AbstractTextEditor.Color.SelectionBackground.SystemDefault=false
+AbstractTextEditor.Color.SelectionForeground.SystemDefault=false
+PHPReadOccurrenceIndicationColor=7,54,66
+PHPWriteOccurrenceIndicationColor=7,54,66
+eclipse.preferences.version=1
+filteredSearchResultIndicationColor=7,54,66
+javaScriptOccurrenceIndicationColor=7,54,66
+lineNumberColor=101,123,131
+overviewRuler_migration=migrated_3.1
+printMarginColor=101,123,131

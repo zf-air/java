@@ -1,0 +1,37 @@
+package collection;
+
+import java.util.*;
+
+public class ArrayList_demo {
+	public static void main(String[] args) {
+		ArrayList<String> arr = new ArrayList<String>();
+		arr.add("hello");
+		arr.add("world");
+		arr.add("java");
+		
+		//get(int index) 获取某个索引的值
+		System.out.println(arr.get(2));
+		//size() 大小
+		System.out.println("size:" + arr.size());
+		
+		// 1.迭代器遍历
+		Iterator it = arr.iterator();
+		while (it.hasNext()) {
+			String s = (String) it.next();
+			System.out.println(s);
+		}
+		System.out.println("------------");
+
+		// 2.增强for 遍历
+		for (String s : arr) {
+			System.out.println(s);
+		}
+		System.out.println("------------");
+		
+		// 3.普通for遍历
+		for(int i=0;i<arr.size();i++) {
+			String s = (String) arr.get(i);
+			System.out.println(s);
+		}
+	}
+}
